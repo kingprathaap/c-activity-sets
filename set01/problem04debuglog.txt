@@ -1,0 +1,80 @@
+GNU gdb (GDB) 11.1
+Copyright (C) 2021 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-w64-mingw32".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+--Type <RET> for more, q to quit, c to continue without paging--
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a.exe...
+(gdb) r
+Starting program: E:\Git\c_activity_sets\set01\a.exe
+[New Thread 5984.0x181c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+enter the value of a
+4
+enter the value of b
+[Thread 5984.0x181c exited with code 0]
+5
+the sum of 4 and 5 is 9[Inferior 1 (process 5984) exited normally]
+(gdb) l
+11          printf("enter the value of b\n");
+12          scanf("%d",b);
+13      }
+14      void add(int a, int b, int *sum)
+15      {
+16          *sum=a+b;
+17      }
+18      void output(int a, int b, int sum)
+19      {
+20          printf("the sum of %d and %d is %d",a,b,sum);
+(gdb) b 2
+Breakpoint 1 at 0x7ff67ddc15f2: file .\problem04.c, line 9.
+(gdb) r
+Starting program: E:\Git\c_activity_sets\set01\a.exe
+[New Thread 6824.0x2c04]
+
+Thread 1 hit Breakpoint 1, input (a=0xbcc29ff96c, b=0xbcc29ff968) at .\problem04.c:9
+9           printf("enter the value of a\n");
+(gdb) n
+enter the value of a
+10          scanf("%d",a);
+(gdb) n
+
+^S[Thread 6824.0x2c04 exited with code 0]                                                                                                   
+
+
+5 
+11          printf("enter the value of b\n");
+(gdb) n
+enter the value of b
+12          scanf("%d",b);
+(gdb) n
+4 
+13      }
+(gdb) n
+main () at .\problem04.c:26
+26          add(a,b,&sum);
+(gdb) n
+27          output(a,b,sum);
+(gdb) n
+the sum of 5 and 4 is 928           return 0;
+(gdb) n
+29      }
+(gdb) n
+0x00007ff67ddc13c1 in __tmainCRTStartup ()
+(gdb) n
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Inferior 1 (process 6824) exited normally]
+(gdb) n
+The program is not being run.
+(gdb) q

@@ -1,0 +1,7 @@
+What is gcc?
+It is a C language compiler that converts c source file to excutable.
+Preprocessor of gcc will process lines starting with #.
+What is #?
+
+What is Preprocessor?
+What is compiler?

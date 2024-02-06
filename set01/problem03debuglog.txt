@@ -1,0 +1,72 @@
+GNU gdb (GDB) 11.1
+Copyright (C) 2021 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-w64-mingw32".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+--Type <RET> for more, q to quit, c to continue without paging--
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a.exe...
+(gdb) r
+Starting program: E:\Git\c_activity_sets\set01\a.exe
+[New Thread 10536.0x3eb4]
+warning: Can not parse XML library list; XML support was disabled at compile time
+enter the number
+5
+enter the number
+4
+the sum of 5 and 4 is 9[Thread 10536.0x3eb4 exited with code 0]
+[Inferior 1 (process 10536) exited normally]
+(gdb) l
+1       //Write a C program to add two numbers using pass by value
+2       #include<stdio.h>
+3       int input();
+4       int add(int a, int b);
+5       void output(int a, int b, int sum);
+6       int main()
+7       {
+8         int a,b,sum;
+9         a=input();
+10        b=input();
+(gdb) b 2
+Breakpoint 1 at 0x7ff7323d15ef: file .\problem03.c, line 9.
+(gdb) n
+The program is not being run.
+(gdb) r
+Starting program: E:\Git\c_activity_sets\set01\a.exe
+[New Thread 9320.0x23c0]
+
+Thread 1 hit Breakpoint 1, main () at .\problem03.c:9
+9         a=input();
+(gdb) n
+enter the number
+5
+10        b=input();
+(gdb) n
+enter the number
+7
+11        sum=add(a,b);
+(gdb) n
+12        output(a,b,sum);
+(gdb) n
+the sum of 5 and 7 is 1213        return 0;
+(gdb) n
+14      }
+(gdb) n
+0x00007ff7323d13c1 in __tmainCRTStartup ()
+(gdb) n
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 9320.0x3868 exited with code 0]
+[Inferior 1 (process 9320) exited normally]
+(gdb) n
+The program is not being run.
+(gdb) q

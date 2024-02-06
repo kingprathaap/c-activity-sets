@@ -1,0 +1,76 @@
+GNU gdb (GDB) 11.1
+Copyright (C) 2021 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-w64-mingw32".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+--Type <RET> for more, q to quit, c to continue without paging--
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a.exe...
+(gdb) r
+Starting program: E:\Git\c_activity_sets\set01\a.exe
+[New Thread 5192.0x1b30]
+warning: Can not parse XML library list; XML support was disabled at compile time
+enter the value
+5
+enter the value
+6
+enter the value
+7
+the largest of 5, 6 and 7 is 7[Thread 5192.0x1b30 exited with code 0]
+[Inferior 1 (process 5192) exited normally]
+(gdb) l
+1       //Write a C program to compare three numbers using **pass by value**
+2       #include<stdio.h>
+3       int input();
+4       int compare(int a, int b, int c);
+5       void output(int a, int b, int c, int largest);
+6
+7       int main()
+8       {
+9           int a,b,c,largest;
+10          a=input();
+(gdb) b 2
+Breakpoint 1 at 0x7ff78f6e15ef: file .\problem05.c, line 10.
+(gdb) r
+Starting program: E:\Git\c_activity_sets\set01\a.exe
+[New Thread 7032.0x2690]
+
+Thread 1 hit Breakpoint 1, main () at .\problem05.c:10
+10          a=input();
+(gdb) n
+enter the value
+7
+11          b=input();
+(gdb) n
+enter the value
+8
+12          c=input();
+(gdb) n
+enter the value
+8
+13          largest=compare(a,b,c);
+(gdb) n
+14          output(a,b,c,largest);
+(gdb) n
+the largest of 7, 8 and 8 is 815            return 0;
+(gdb) n
+16      }
+(gdb) n
+0x00007ff78f6e13c1 in __tmainCRTStartup ()
+(gdb) n
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 7032.0x2690 exited with code 0]
+[Inferior 1 (process 7032) exited normally]
+(gdb) n
+The program is not being run.
+(gdb) q
