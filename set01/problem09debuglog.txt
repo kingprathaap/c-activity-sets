@@ -1,0 +1,76 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> gcc problem09.c
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> gdb a.exe                                                                 
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01\a.exe...done.
+(gdb) 7.6.1
+Undefined command: "7".  Try "help".
+(gdb) b
+No default breakpoint address now.
+(gdb) r
+Starting program: C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01/a.exe
+[New Thread 1096.0x1280]
+[New Thread 1096.0x3b94]
+Enter the number:
+49
+13.250000
+8.474056
+7.128205
+7.001153
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+7.000000
+The square root of 49.000000 is 7.000000
+[Inferior 1 (process 1096) exited normally]
+(gdb) n
+The program is not being run.
+(gdb) q
