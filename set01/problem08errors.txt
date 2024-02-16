@@ -1,0 +1,15 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> gcc problem08.c
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> .\a.exe
+Input array size: 3
+Input the array:
+5
+6
+7
+5+6+7 is 18
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git commit -m "test"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git push       
+Everything up-to-date

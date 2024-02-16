@@ -1,0 +1,13 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> gcc problem10.c
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> .\a.exe
+Enter the first string
+hello
+Enter the second string
+world
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git commit -m "test"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git push       
+Everything up-to-date

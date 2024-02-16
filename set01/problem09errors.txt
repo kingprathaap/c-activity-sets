@@ -1,0 +1,17 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> gcc problem09.c
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> .\a.exe
+Enter the number:
+5
+2.250000
+2.236111
+2.236068
+2.236068
+2.236068
+The square root of 5.000000 is 2.236068
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git commit -m "test"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git push       
+Everything up-to-date

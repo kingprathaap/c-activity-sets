@@ -1,0 +1,18 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> gcc problem11.c
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> .\a.exe
+Enter the real part
+2
+Enter the img part
+3
+Enter the real part
+3
+Enter the img part
+2
+The sum is 5.0+i5.0
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git commit -m "test"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git push       
+Everything up-to-date

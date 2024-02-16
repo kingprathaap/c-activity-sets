@@ -1,0 +1,14 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> gcc problem03.c
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> .\a.exe
+enter the number
+6
+enter the number
+8
+the sum of 6 and 8 is 14
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git commit -m "test"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git push       
+Everything up-to-date

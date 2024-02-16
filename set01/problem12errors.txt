@@ -1,0 +1,28 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> gcc problem12.c
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> .\a.exe        
+Enter the number of complex numbers: 5
+Enter the real and imaginary parts of each complex number:
+Complex number 1:
+Real part: 6
+Imaginary part: 7
+Complex number 2:
+Real part: 9
+Imaginary part: 2
+Complex number 3:
+Real part: 3
+Imaginary part: 5
+Complex number 4:
+Real part: 7
+Imaginary part: 3
+Complex number 5:
+Real part: 4
+Imaginary part: 5
+
+Sum of the complex numbers: 29.00 + 22.00i
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git commit -m "test"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git push       
+Everything up-to-date
