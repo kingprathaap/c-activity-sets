@@ -1,0 +1,21 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> gcc problem01.c
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> .\a.exe
+Prathaap
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git add .      
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git commit -m "test"
+[main 2cd2853] test
+ 12 files changed, 173 insertions(+)
+ create mode 100644 set01/problem02errors.txt
+ create mode 100644 set01/problem03errors.txt
+ create mode 100644 set01/problem04
+ create mode 100644 set01/problem04errors.txt
+ create mode 100644 set01/problem05errors.txt
+ create mode 100644 set01/problem06errors.txt
+ create mode 100644 set01/problem07errors.txt
+ create mode 100644 set01/problem08errors.txt
+ create mode 100644 set01/problem09errors.txt
+ create mode 100644 set01/problem10errors.txt
+ create mode 100644 set01/problem11errors.txt
+ create mode 100644 set01/problem12errors.txt
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set01> git push .
+Everything up-to-date
