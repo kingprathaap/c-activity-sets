@@ -3,12 +3,12 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,sum;
+    int c,d,sum;
     printf("Enter the value of a\n");
-    scanf("%d",&a);
+    scanf("%d",&c);
     printf("Enter the value of b\n");
-    scanf("%d",&b);
-    sum=a+b;
-    printf("The sum of %d and %d is %d",a,b,sum);
+    scanf("%d",&d);
+    sum=c+d;
+    printf("The sum of %d and %d is %d",c,d,sum);
     return 0;
 }
