@@ -2,10 +2,10 @@
 
 int input_array_size() 
 {
-    int n;
+    int v;
     printf("Input array size: ");
-    scanf("%d", &n);
-    return n;
+    scanf("%d", &v);
+    return v;
 }
 void input_array(int n, int a[n])
  {
