@@ -1,43 +1,43 @@
 //Write a C program to compare three numbers using *pass by reference*
 #include<stdio.h>
 
-void input(int *a, int *b, int *c);
-void compare(int a, int b, int c, int *largest);
-void output(int a, int b, int c, int largest);
+void input(int *e, int *f, int *g);
+void compare(int e, int f, int g, int *largest);
+void output(int e, int f, int g, int largest);
 
-void input(int *a, int *b, int *c)
+void input(int *e, int *f, int *g)
 {
-    printf("enter the value of a\n");
-    scanf("%d",a);
-    printf("enter the value of b\n");
-    scanf("%d",b);
-    printf("enter the value of c\n");
-    scanf("%d",c);
+    printf("enter the value of e\n");
+    scanf("%d",e);
+    printf("enter the value of f\n");
+    scanf("%d",f);
+    printf("enter the value of g\n");
+    scanf("%d",g);
 }
-void compare(int a, int b, int c, int *largest)
+void compare(int e, int f, int g, int *largest)
 {
-    if(a>=b && a>=c)
+    if(e>=f && e>=g)
     {
-        *largest=a;
+        *largest=e;
     }
-    else if(b>=a && b>=c)
+    else if(f>=e && f>=g)
     {
-        *largest=b;
+        *largest=f;
     }
     else
     {
-        *largest=c;
+        *largest=g;
     }
 }
-void output(int a, int b, int c, int largest)
+void output(int e, int f, int g, int largest)
 {
-    printf("the largest of %d, %d and %d is %d",a,b,c,largest);
+    printf("the largest of %d, %d and %d is %d",e,f,g,largest);
 }
 int main()
 {
-    int a,b,c,largest;
-    input(&a,&b,&c);
-    compare(a,b,c,&largest);
-    output(a,b,c,largest);
+    int e,f,g,largest;
+    input(&e,&f,&g);
+    compare(e,f,g,&largest);
+    output(e,f,g,largest);
    return 0;
 }
