@@ -1,29 +1,29 @@
 #include<stdio.h>
 int input();
-int compare(int a, int b, int c);
-void output(int a, int b, int c, int largest);
+int compare(int c, int d, int e);
+void output(int c, int d, int e, int largest);
 int input()
 {
-    int x;
+    int y;
     printf("Enter the first number");
-    scanf("%d",&x);
-    return x;
+    scanf("%d",&y);
+    return y;
 }
-int compare(int a, int b, int c)
+int compare(int c, int d, int e)
 {
     int largest;
 
-    if (a>=b && a>=c)
-    {
-        largest = a;
-    }
-    else if (b>=a && b>=c)
-    {
-        largest = b;
-    }
-    else if (c>=a && c>b)
+    if (c>=d && c>=e)
     {
         largest = c;
+    }
+    else if (d>=c && d>=e)
+    {
+        largest = d;
+    }
+    else if (e>=c && e>d)
+    {
+        largest = e;
     }
     else
     {
@@ -32,25 +32,25 @@ int compare(int a, int b, int c)
     }
     return largest;
 }
-void output(int a, int b, int c, int largest)
+void output(int c, int d, int e, int largest)
 {
-    if(a==b&&b==c)
+    if(c==d&&d==e)
     {
     printf("they are equal");
     }
     else
     {
-    printf("the largest btw %d and %d and %d is %d",a,b,c,largest);
+    printf("the largest btw %d and %d and %d is %d",c,d,e,largest);
     }
 }
 int main()
 {
-    int a,b,c,largest;
-    a=input();
-    b=input();
+    int c,d,e,largest;
     c=input();
-    largest=compare(a,b,c);
-    output(a,b,c,largest);
+    d=input();
+    e=input();
+    largest=compare(c,d,e);
+    output(c,d,e,largest);
 
 }
 
