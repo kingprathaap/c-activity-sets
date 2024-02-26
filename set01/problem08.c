@@ -9,7 +9,7 @@ int input_array_size()
 }
 void input_array(int n, int a[n])
  {
-    printf("Input the array:\n");
+    printf("input the array:\n");
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
