@@ -13,7 +13,7 @@ struct Complex addComplex(struct Complex num1, struct Complex num2) {
 
 int main() {
     int n;
-     printf("enter the number of complex numbers: ");
+     printf("Enter the number of complex numbers: ");
     scanf("%d", &n);
     struct Complex numbers[n];
     printf("enter the real and imaginary parts of each complex number:\n");
