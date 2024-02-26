@@ -23,7 +23,7 @@ int main ()
 Complex input()
 {
     Complex c;
-    printf("enter the real part\n");
+    printf("Enter the real part\n");
     scanf("%f", &c.real);
     printf("enter the img part\n");
     scanf("%f", &c.img);
