@@ -5,7 +5,7 @@ void output(int c, int d, int sum);
 
 void input(int *c, int *d)
 {
-    printf("enter the value of a\n");
+    printf("Enter the value of a\n");
     scanf("%d",c);
     printf("enter the value of b\n");
     scanf("%d",d);
