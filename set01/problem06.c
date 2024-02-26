@@ -7,9 +7,9 @@ void output(int e, int f, int g, int largest);
 
 void input(int *e, int *f, int *g)
 {
-    printf("enter the value of e\n");
+    printf("Enter the value of e\n");
     scanf("%d",e);
-    printf("enter the value of f\n");
+    printf("Enter the value of f\n");
     scanf("%d",f);
     printf("enter the value of g\n");
     scanf("%d",g);
