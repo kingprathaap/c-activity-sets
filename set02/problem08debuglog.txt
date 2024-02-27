@@ -1,0 +1,29 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set02> gdb problem08.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set02\problem08.exe...done.
+(gdb) r
+Starting program: C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set02/problem08.exe 
+[New Thread 20396.0x5594]
+[New Thread 20396.0x5da4]
+Enter the number of triangles: 2
+Triangle 1:
+Enter the base length of the triangle: 3
+Enter the height of the triangle: 4
+Triangle 2:
+Enter the base length of the triangle: 5
+Enter the height of the triangle: 6
+Areas of the 2 triangles:
+Triangle 1: 6.00 sq. units
+Triangle 2: 15.00 sq. units
+Triangle with the smallest area:
+Base: 3.00, Altitude: 4.00, Area: 6.00 sq. units
+[Inferior 1 (process 20396) exited normally]
+(gdb) q
