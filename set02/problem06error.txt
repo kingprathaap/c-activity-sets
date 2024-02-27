@@ -1,0 +1,1 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set02> gcc -g -O0 problem06.c -o problem06.exe  
