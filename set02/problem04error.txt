@@ -1,0 +1,6 @@
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set02> gcc problem04.c
+PS C:\Users\prath\OneDrive\Desktop\github\c-activity-sets\set02> .\a.exe
+Enter the size of the array: 2
+Enter the elements of the array: 3
+4
+Sum of composite numbers in the array: 4
