@@ -2,6 +2,6 @@
 #include <stdio.h>
 int main()
 {
-printf("Prathaap");
+printf("PRATHAAP");
 return 0;
 }
